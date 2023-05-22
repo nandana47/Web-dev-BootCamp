@@ -83,6 +83,15 @@ header .logo{
 
 }
 
+#Hero a{
+    color: #553177;
+    text-decoration: none;
+}
+
+#Hero a:hover{
+    color: white;
+}
+
 #Hero button{
     font-size: 19px;
     background-color: white;
@@ -101,6 +110,7 @@ header .logo{
     color: white;
     border: 1px solid #7eb1e0 ;
 }
+
 #seperate{
     padding: 5px;
     background-color: #553177;
@@ -135,6 +145,15 @@ header .logo{
     float: right;
     width: 60%;
     text-align: justify;
+}
+
+#about a{
+    color: #553177;
+    text-decoration: none;
+}
+
+#about a:hover{
+    color: white;
 }
 
 #about button{
@@ -270,4 +289,10 @@ footer {
 /* additional style */
 .info-panel {
     color: #fff;
+}
+
+#forms p{
+    color: red;
+    font-size: 14px;
+    display: none;
 }
